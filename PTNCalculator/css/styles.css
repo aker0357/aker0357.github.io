@@ -1,0 +1,93 @@
+
+body {
+  font-family: Arial, sans-serif; /* 讓頁面字體看起來更為現代和整潔 */
+  background-color: #f3f3f3; /* 讓背景色更為柔和，減輕對眼睛的壓力 */
+  color: #333; /* 將預設文字顏色設為柔和的深灰色，以增強對比 */
+  padding: 20px; /* 添加周圍的填充，讓頁面內容看起來不那麼壓迫 */
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1, h3 {
+  color: #555; /* 將標題文字顏色設為稍深的灰色，以增加視覺對比並突出重要的項目 */
+}
+
+
+#main-container {
+  border-radius: 15px; /* 讓主容器邊角變圓 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 為主容器添加陰影，使其在背景中突出顯示 */
+  background-color: white; /* 將主容器背景色設為白色，從背景中突出 */
+  padding: 20px; /* 為主容器添加內部填充，以增加內容和邊界之間的空間 */
+  margin-bottom: 20px; /* 在主容器和底部資訊之間添加空間 */
+  max-width: 100%;
+}
+
+.flex-container {
+  display: flex; /* 使容器中的元素以 flex 布局方式呈現 */
+  flex-wrap: wrap; /* 如果容器寬度不足以容納所有元素，則換行 */
+  justify-content: space-around;
+}
+
+.flex-container table {
+  box-sizing: border-box; /* 使 padding 和 border 包含在元素的總寬度和高度中 */
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+#materials-table, #inner-sea-table, #soul-mark-table, #fluid-table, #skill-model-table {
+  table-layout: fixed; /* 確保表格的寬度將根據你所設定的固定 */
+  width: 100%;
+}
+
+table th,
+table td {
+  text-align: center; /* 讓表格中的文字居中 */
+}
+
+#calculate-total, #clear-result {
+  margin-top: 20px; /* 在計算按鈕和上方容器之間添加一些空間 */
+  background-color: #007BFF; /* 將按鈕背景色設為漂亮的藍色 */
+  color: white; /* 讓按鈕文字為白色，與背景色形成對比 */
+  border: none; /* 移除預設的按鈕邊框 */
+  padding: 10px 20px; /* 為按鈕添加一些內部填充，使其看起來更大並更易於點擊 */
+  border-radius: 5px; /* 為按鈕添加輕微的邊角曲率，使其看起來更為友好 */
+  font-size: 18px; /* 讓按鈕文字稍大，更易於閱讀 */
+  cursor: pointer; /* 當滑鼠懸停在按鈕上時，讓滑鼠指標變成手指形狀，這表示該項目可以點擊 */
+}
+
+#calculate-total:hover, #clear-result:hover {
+  background-color: #0056b3; /* 當滑鼠懸停在按鈕上時，讓背景色變深，這表示用戶可以與其互動 */
+}
+
+#resource-stats {
+  padding-top: 20px; /* 在資源統計資訊與其上方元素之間增加一些空間 */
+}
+
+#avatar-container {
+  display: flex; /* 设置该元素为 Flex 容器 */
+  justify-content: center;
+  align-items: center; /* 垂直居中对齐 flex 子项 */
+ 
+}
+p.danger-level {
+  margin-right: 20px; /* 在标题和段落之间添加 20px 的空间 */
+}
+
+
+#murmur {
+  position: absolute; /* 將元素定位為絕對定位 */
+  bottom: 0; /* 將元素底部與父元素底部對齊 */
+  right: 0; /* 將元素右側與父元素右側對齊 */
+}
+@media screen and (min-width: 600px) {
+  #materials-table, #inner-sea-table, #soul-mark-table, #fluid-table, #skill-model-table {
+    width: 500px; /* 當螢幕寬度大於600px時，表格寬度改為500px */
+  }
+}

@@ -1,0 +1,485 @@
+{
+    "Rank": {
+        "S": {
+            "Rank1": {
+                "Material1": [
+                    "green",
+                    16
+                ],
+                "Material2": [
+                    "green",
+                    8
+                ],
+                "Fluid": [
+                    "green",
+                    18
+                ],
+                "Coin": 36000
+            },
+            "Rank2": {
+                "Material1": [
+                    "blue",
+                    16
+                ],
+                "Material2": [
+                    "blue",
+                    8
+                ],
+                "Fluid": [
+                    "blue",
+                    18
+                ],
+                "Coin": 120000
+            },
+            "Rank3": {
+                "Material1": [
+                    "purple",
+                    28
+                ],
+                "Material2": [
+                    "purple",
+                    15
+                ],
+                "Fluid": [
+                    "purple",
+                    30
+                ],
+                "Coin": 560000
+            }
+        },
+        "A": {
+            "Rank1": {
+                "Material1": [
+                    "green",
+                    12
+                ],
+                "Material2": [
+                    "white",
+                    18
+                ],
+                "Fluid": [
+                    "green",
+                    15
+                ],
+                "Coin": 30000
+            },
+            "Rank2": {
+                "Material1": [
+                    "blue",
+                    12
+                ],
+                "Material2": [
+                    "green",
+                    18
+                ],
+                "Fluid": [
+                    "blue",
+                    15
+                ],
+                "Coin": 100000
+            },
+            "Rank3": {
+                "Material1": [
+                    "purple",
+                    24
+                ],
+                "Material2": [
+                    "blue",
+                    36
+                ],
+                "Fluid": [
+                    "purple",
+                    25
+                ],
+                "Coin": 480000
+            }
+        },
+        "B": {
+            "Rank1": {
+                "Material1": [
+                    "white",
+                    30
+                ],
+                "Material2": [
+                    "white",
+                    15
+                ],
+                "Fluid": [
+                    "green",
+                    12
+                ],
+                "Coin": 24000
+            },
+            "Rank2": {
+                "Material1": [
+                    "green",
+                    30
+                ],
+                "Material2": [
+                    "green",
+                    15
+                ],
+                "Fluid": [
+                    "blue",
+                    12
+                ],
+                "Coin": 80000
+            },
+            "Rank3": {
+                "Material1": [
+                    "blue",
+                    54
+                ],
+                "Material2": [
+                    "blue",
+                    30
+                ],
+                "Fluid": [
+                    "purple",
+                    20
+                ],
+                "Coin": 350000
+            }
+        }
+    },
+    "Skill": {
+        "S": {
+            "1": {
+                "SkillModel": [
+                    "white",
+                    8
+                ],
+                "SkillMaterial": [
+                    "white",
+                    6
+                ],
+                "Coin": 4000
+            },
+            "2": {
+                "SkillModel": [
+                    "white",
+                    16
+                ],
+                "SkillMaterial": [
+                    "white",
+                    10
+                ],
+                "Coin": 6000
+            },
+            "3": {
+                "SkillModel": [
+                    "green",
+                    10
+                ],
+                "SkillMaterial": [
+                    "green",
+                    6
+                ],
+                "Coin": 8500
+            },
+            "4": {
+                "SkillModel": [
+                    "green",
+                    16
+                ],
+                "SkillMaterial": [
+                    "green",
+                    10
+                ],
+                "Coin": 12800
+            },
+            "5": {
+                "SkillModel": [
+                    "blue",
+                    8
+                ],
+                "SkillMaterial": [
+                    "blue",
+                    6
+                ],
+                "Coin": 19200
+            },
+            "6": {
+                "SkillModel": [
+                    "blue",
+                    10
+                ],
+                "SkillMaterial": [
+                    "blue",
+                    8
+                ],
+                "Coin": 30000
+            },
+            "7": {
+                "SkillModel": [
+                    "purple",
+                    8
+                ],
+                "SkillMaterial": [
+                    "purple",
+                    4
+                ],
+                "Stone": 1,
+                "Coin": 86000
+            },
+            "8": {
+                "SkillModel": [
+                    "purple",
+                    10
+                ],
+                "SkillMaterial": [
+                    "purple",
+                    6
+                ],
+                "Stone": 2,
+                "Coin": 175000
+            },
+            "9": {
+                "SkillModel": [
+                    "purple",
+                    15
+                ],
+                "SkillMaterial": [
+                    "purple",
+                    8
+                ],
+                "Stone": 2,
+                "Crystal": 1,
+                "Coin": 260000
+            }
+        },
+        "A": {
+            "1": {
+                "SkillModel": [
+                    "white",
+                    6
+                ],
+                "SkillMaterial": [
+                    "white",
+                    5
+                ],
+                "Coin": 3000
+            },
+            "2": {
+                "SkillModel": [
+                    "white",
+                    12
+                ],
+                "SkillMaterial": [
+                    "white",
+                    8
+                ],
+                "Coin": 5000
+            },
+            "3": {
+                "SkillModel": [
+                    "green",
+                    8
+                ],
+                "SkillMaterial": [
+                    "green",
+                    5
+                ],
+                "Coin": 8500
+            },
+            "4": {
+                "SkillModel": [
+                    "green",
+                    12
+                ],
+                "SkillMaterial": [
+                    "green",
+                    8
+                ],
+                "Coin": 10500
+            },
+            "5": {
+                "SkillModel": [
+                    "blue",
+                    6
+                ],
+                "SkillMaterial": [
+                    "blue",
+                    5
+                ],
+                "Coin": 16000
+            },
+            "6": {
+                "SkillModel": [
+                    "blue",
+                    8
+                ],
+                "SkillMaterial": [
+                    "blue",
+                    6
+                ],
+                "Coin": 25000
+            },
+            "7": {
+                "SkillModel": [
+                    "purple",
+                    6
+                ],
+                "SkillMaterial": [
+                    "purple",
+                    3
+                ],
+                "Stone": 1,
+                "Coin": 72000
+            },
+            "8": {
+                "SkillModel": [
+                    "purple",
+                    8
+                ],
+                "SkillMaterial": [
+                    "purple",
+                    5
+                ],
+                "Stone": 1,
+                "Coin": 150000
+            },
+            "9": {
+                "SkillModel": [
+                    "purple",
+                    12
+                ],
+                "SkillMaterial": [
+                    "purple",
+                    6
+                ],
+                "Stone": 2,
+                "Crystal": 1,
+                "Coin": 210000
+            }
+        },
+        "B": {
+            "1": {
+                "SkillModel": [
+                    "white",
+                    5
+                ],
+                "SkillMaterial": [
+                    "white",
+                    4
+                ],
+                "Coin": 2500
+            },
+            "2": {
+                "SkillModel": [
+                    "white",
+                    10
+                ],
+                "SkillMaterial": [
+                    "white",
+                    6
+                ],
+                "Coin": 4000
+            },
+            "3": {
+                "SkillModel": [
+                    "green",
+                    6
+                ],
+                "SkillMaterial": [
+                    "green",
+                    4
+                ],
+                "Coin": 5600
+            },
+            "4": {
+                "SkillModel": [
+                    "green",
+                    10
+                ],
+                "SkillMaterial": [
+                    "green",
+                    6
+                ],
+                "Coin": 8500
+            },
+            "5": {
+                "SkillModel": [
+                    "blue",
+                    5
+                ],
+                "SkillMaterial": [
+                    "blue",
+                    4
+                ],
+                "Coin": 12800
+            },
+            "6": {
+                "SkillModel": [
+                    "blue",
+                    6
+                ],
+                "SkillMaterial": [
+                    "blue",
+                    5
+                ],
+                "Coin": 20000
+            },
+            "7": {
+                "SkillModel": [
+                    "purple",
+                    5
+                ],
+                "SkillMaterial": [
+                    "purple",
+                    2
+                ],
+                "Stone": 1,
+                "Coin": 57000
+            },
+            "8": {
+                "SkillModel": [
+                    "purple",
+                    6
+                ],
+                "SkillMaterial": [
+                    "purple",
+                    4
+                ],
+                "Stone": 1,
+                "Coin": 120000
+            },
+            "9": {
+                "SkillModel": [
+                    "purple",
+                    10
+                ],
+                "SkillMaterial": [
+                    "purple",
+                    5
+                ],
+                "Stone": 1,
+                "Crystal": 1,
+                "Coin": 170000
+            }
+        }
+    },
+    "Crimebrand": {
+        "S": {
+            "Coin": [
+                100000,
+                150000,
+                200000
+            ]
+        },
+        "A": {
+            "Coin": [
+                80000,
+                120000,
+                160000
+            ]
+        },
+        "B": {
+            "Coin": [
+                60000,
+                90000,
+                120000
+            ]
+        }
+    }
+}

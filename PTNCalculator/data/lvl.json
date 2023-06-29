@@ -1,0 +1,1343 @@
+{
+    "B": [
+        {
+            "Lvl": 1,
+            "Coins": 100,
+            "Essense": 400
+        },
+        {
+            "Lvl": 2,
+            "Coins": 150,
+            "Essense": 500
+        },
+        {
+            "Lvl": 3,
+            "Coins": 200,
+            "Essense": 600
+        },
+        {
+            "Lvl": 4,
+            "Coins": 200,
+            "Essense": 700
+        },
+        {
+            "Lvl": 5,
+            "Coins": 300,
+            "Essense": 800
+        },
+        {
+            "Lvl": 6,
+            "Coins": 350,
+            "Essense": 950
+        },
+        {
+            "Lvl": 7,
+            "Coins": 400,
+            "Essense": 1100
+        },
+        {
+            "Lvl": 8,
+            "Coins": 500,
+            "Essense": 1200
+        },
+        {
+            "Lvl": 9,
+            "Coins": 550,
+            "Essense": 1400
+        },
+        {
+            "Lvl": 10,
+            "Coins": 650,
+            "Essense": 1550
+        },
+        {
+            "Lvl": 11,
+            "Coins": 750,
+            "Essense": 1750
+        },
+        {
+            "Lvl": 12,
+            "Coins": 850,
+            "Essense": 1950
+        },
+        {
+            "Lvl": 13,
+            "Coins": 950,
+            "Essense": 2150
+        },
+        {
+            "Lvl": 14,
+            "Coins": 1050,
+            "Essense": 2400
+        },
+        {
+            "Lvl": 15,
+            "Coins": 1200,
+            "Essense": 2600
+        },
+        {
+            "Lvl": 16,
+            "Coins": 1300,
+            "Essense": 2900
+        },
+        {
+            "Lvl": 17,
+            "Coins": 1450,
+            "Essense": 3150
+        },
+        {
+            "Lvl": 18,
+            "Coins": 1600,
+            "Essense": 3400
+        },
+        {
+            "Lvl": 19,
+            "Coins": 1700,
+            "Essense": 3700
+        },
+        {
+            "Lvl": 20,
+            "Coins": 1900,
+            "Essense": 4350
+        },
+        {
+            "Lvl": 21,
+            "Coins": 2000,
+            "Essense": 4550
+        },
+        {
+            "Lvl": 22,
+            "Coins": 2200,
+            "Essense": 4800
+        },
+        {
+            "Lvl": 23,
+            "Coins": 2350,
+            "Essense": 5000
+        },
+        {
+            "Lvl": 24,
+            "Coins": 2500,
+            "Essense": 5250
+        },
+        {
+            "Lvl": 25,
+            "Coins": 2700,
+            "Essense": 5500
+        },
+        {
+            "Lvl": 26,
+            "Coins": 2850,
+            "Essense": 5750
+        },
+        {
+            "Lvl": 27,
+            "Coins": 3050,
+            "Essense": 6000
+        },
+        {
+            "Lvl": 28,
+            "Coins": 3200,
+            "Essense": 6250
+        },
+        {
+            "Lvl": 29,
+            "Coins": 3400,
+            "Essense": 6500
+        },
+        {
+            "Lvl": 30,
+            "Coins": 3600,
+            "Essense": 6750
+        },
+        {
+            "Lvl": 31,
+            "Coins": 3800,
+            "Essense": 7000
+        },
+        {
+            "Lvl": 32,
+            "Coins": 4000,
+            "Essense": 7300
+        },
+        {
+            "Lvl": 33,
+            "Coins": 4200,
+            "Essense": 7600
+        },
+        {
+            "Lvl": 34,
+            "Coins": 4400,
+            "Essense": 7850
+        },
+        {
+            "Lvl": 35,
+            "Coins": 4600,
+            "Essense": 8150
+        },
+        {
+            "Lvl": 36,
+            "Coins": 4800,
+            "Essense": 8450
+        },
+        {
+            "Lvl": 37,
+            "Coins": 5000,
+            "Essense": 8750
+        },
+        {
+            "Lvl": 38,
+            "Coins": 5200,
+            "Essense": 9100
+        },
+        {
+            "Lvl": 39,
+            "Coins": 5400,
+            "Essense": 9400
+        },
+        {
+            "Lvl": 40,
+            "Coins": 5400,
+            "Essense": 9550
+        },
+        {
+            "Lvl": 41,
+            "Coins": 5450,
+            "Essense": 9700
+        },
+        {
+            "Lvl": 42,
+            "Coins": 5450,
+            "Essense": 9900
+        },
+        {
+            "Lvl": 43,
+            "Coins": 5500,
+            "Essense": 10050
+        },
+        {
+            "Lvl": 44,
+            "Coins": 5500,
+            "Essense": 10200
+        },
+        {
+            "Lvl": 45,
+            "Coins": 5500,
+            "Essense": 10400
+        },
+        {
+            "Lvl": 46,
+            "Coins": 5550,
+            "Essense": 10600
+        },
+        {
+            "Lvl": 47,
+            "Coins": 5600,
+            "Essense": 10800
+        },
+        {
+            "Lvl": 48,
+            "Coins": 5600,
+            "Essense": 11000
+        },
+        {
+            "Lvl": 49,
+            "Coins": 5650,
+            "Essense": 11200
+        },
+        {
+            "Lvl": 50,
+            "Coins": 5700,
+            "Essense": 11450
+        },
+        {
+            "Lvl": 51,
+            "Coins": 5700,
+            "Essense": 11700
+        },
+        {
+            "Lvl": 52,
+            "Coins": 5800,
+            "Essense": 11900
+        },
+        {
+            "Lvl": 53,
+            "Coins": 5800,
+            "Essense": 12150
+        },
+        {
+            "Lvl": 54,
+            "Coins": 5900,
+            "Essense": 12400
+        },
+        {
+            "Lvl": 55,
+            "Coins": 5900,
+            "Essense": 12650
+        },
+        {
+            "Lvl": 56,
+            "Coins": 6000,
+            "Essense": 12900
+        },
+        {
+            "Lvl": 57,
+            "Coins": 6050,
+            "Essense": 13200
+        },
+        {
+            "Lvl": 58,
+            "Coins": 6100,
+            "Essense": 13450
+        },
+        {
+            "Lvl": 59,
+            "Coins": 6200,
+            "Essense": 13700
+        },
+        {
+            "Lvl": 60,
+            "Coins": 6250,
+            "Essense": 14000
+        },
+        {
+            "Lvl": 61,
+            "Coins": 6350,
+            "Essense": 14300
+        },
+        {
+            "Lvl": 62,
+            "Coins": 6400,
+            "Essense": 14600
+        },
+        {
+            "Lvl": 63,
+            "Coins": 6500,
+            "Essense": 14900
+        },
+        {
+            "Lvl": 64,
+            "Coins": 6600,
+            "Essense": 15200
+        },
+        {
+            "Lvl": 65,
+            "Coins": 6700,
+            "Essense": 15550
+        },
+        {
+            "Lvl": 66,
+            "Coins": 6800,
+            "Essense": 15900
+        },
+        {
+            "Lvl": 67,
+            "Coins": 6900,
+            "Essense": 16200
+        },
+        {
+            "Lvl": 68,
+            "Coins": 7000,
+            "Essense": 16550
+        },
+        {
+            "Lvl": 69,
+            "Coins": 7100,
+            "Essense": 16900
+        },
+        {
+            "Lvl": 70,
+            "Coins": 7350,
+            "Essense": 17700
+        },
+        {
+            "Lvl": 71,
+            "Coins": 7850,
+            "Essense": 19000
+        },
+        {
+            "Lvl": 72,
+            "Coins": 8500,
+            "Essense": 20750
+        },
+        {
+            "Lvl": 73,
+            "Coins": 9350,
+            "Essense": 22950
+        },
+        {
+            "Lvl": 74,
+            "Coins": 10400,
+            "Essense": 25600
+        },
+        {
+            "Lvl": 75,
+            "Coins": 11600,
+            "Essense": 28800
+        },
+        {
+            "Lvl": 76,
+            "Coins": 13000,
+            "Essense": 32400
+        },
+        {
+            "Lvl": 77,
+            "Coins": 14600,
+            "Essense": 36500
+        },
+        {
+            "Lvl": 78,
+            "Coins": 16400,
+            "Essense": 41000
+        },
+        {
+            "Lvl": 79,
+            "Coins": 18400,
+            "Essense": 46000
+        },
+        {
+            "Lvl": 80,
+            "Coins": 20550,
+            "Essense": 51500
+        },
+        {
+            "Lvl": 81,
+            "Coins": 22900,
+            "Essense": 57450
+        },
+        {
+            "Lvl": 82,
+            "Coins": 25500,
+            "Essense": 63900
+        },
+        {
+            "Lvl": 83,
+            "Coins": 28250,
+            "Essense": 70750
+        },
+        {
+            "Lvl": 84,
+            "Coins": 31200,
+            "Essense": 78100
+        },
+        {
+            "Lvl": 85,
+            "Coins": 34400,
+            "Essense": 85900
+        },
+        {
+            "Lvl": 86,
+            "Coins": 37750,
+            "Essense": 94200
+        },
+        {
+            "Lvl": 87,
+            "Coins": 41300,
+            "Essense": 102950
+        },
+        {
+            "Lvl": 88,
+            "Coins": 45100,
+            "Essense": 112150
+        },
+        {
+            "Lvl": 89,
+            "Coins": 49100,
+            "Essense": 121800
+        }
+    ],
+    "A": [
+        {
+            "Lvl": 1,
+            "Coins": 150,
+            "Essense": 500
+        },
+        {
+            "Lvl": 2,
+            "Coins": 200,
+            "Essense": 600
+        },
+        {
+            "Lvl": 3,
+            "Coins": 250,
+            "Essense": 750
+        },
+        {
+            "Lvl": 4,
+            "Coins": 250,
+            "Essense": 850
+        },
+        {
+            "Lvl": 5,
+            "Coins": 350,
+            "Essense": 1000
+        },
+        {
+            "Lvl": 6,
+            "Coins": 450,
+            "Essense": 1200
+        },
+        {
+            "Lvl": 7,
+            "Coins": 500,
+            "Essense": 1350
+        },
+        {
+            "Lvl": 8,
+            "Coins": 600,
+            "Essense": 1500
+        },
+        {
+            "Lvl": 9,
+            "Coins": 700,
+            "Essense": 1750
+        },
+        {
+            "Lvl": 10,
+            "Coins": 800,
+            "Essense": 1950
+        },
+        {
+            "Lvl": 11,
+            "Coins": 950,
+            "Essense": 2200
+        },
+        {
+            "Lvl": 12,
+            "Coins": 1050,
+            "Essense": 2450
+        },
+        {
+            "Lvl": 13,
+            "Coins": 1200,
+            "Essense": 2700
+        },
+        {
+            "Lvl": 14,
+            "Coins": 1300,
+            "Essense": 3000
+        },
+        {
+            "Lvl": 15,
+            "Coins": 1500,
+            "Essense": 3250
+        },
+        {
+            "Lvl": 16,
+            "Coins": 1650,
+            "Essense": 3600
+        },
+        {
+            "Lvl": 17,
+            "Coins": 1800,
+            "Essense": 3950
+        },
+        {
+            "Lvl": 18,
+            "Coins": 2000,
+            "Essense": 4250
+        },
+        {
+            "Lvl": 19,
+            "Coins": 2150,
+            "Essense": 4650
+        },
+        {
+            "Lvl": 20,
+            "Coins": 2350,
+            "Essense": 5450
+        },
+        {
+            "Lvl": 21,
+            "Coins": 2500,
+            "Essense": 5700
+        },
+        {
+            "Lvl": 22,
+            "Coins": 2750,
+            "Essense": 6000
+        },
+        {
+            "Lvl": 23,
+            "Coins": 2950,
+            "Essense": 6250
+        },
+        {
+            "Lvl": 24,
+            "Coins": 3150,
+            "Essense": 6550
+        },
+        {
+            "Lvl": 25,
+            "Coins": 3350,
+            "Essense": 6900
+        },
+        {
+            "Lvl": 26,
+            "Coins": 3550,
+            "Essense": 7200
+        },
+        {
+            "Lvl": 27,
+            "Coins": 3800,
+            "Essense": 7500
+        },
+        {
+            "Lvl": 28,
+            "Coins": 4000,
+            "Essense": 7800
+        },
+        {
+            "Lvl": 29,
+            "Coins": 4250,
+            "Essense": 8100
+        },
+        {
+            "Lvl": 30,
+            "Coins": 4500,
+            "Essense": 8450
+        },
+        {
+            "Lvl": 31,
+            "Coins": 4750,
+            "Essense": 8750
+        },
+        {
+            "Lvl": 32,
+            "Coins": 5000,
+            "Essense": 9100
+        },
+        {
+            "Lvl": 33,
+            "Coins": 5250,
+            "Essense": 9500
+        },
+        {
+            "Lvl": 34,
+            "Coins": 5500,
+            "Essense": 9800
+        },
+        {
+            "Lvl": 35,
+            "Coins": 5750,
+            "Essense": 10200
+        },
+        {
+            "Lvl": 36,
+            "Coins": 6000,
+            "Essense": 10550
+        },
+        {
+            "Lvl": 37,
+            "Coins": 6250,
+            "Essense": 10950
+        },
+        {
+            "Lvl": 38,
+            "Coins": 6500,
+            "Essense": 11350
+        },
+        {
+            "Lvl": 39,
+            "Coins": 6750,
+            "Essense": 11750
+        },
+        {
+            "Lvl": 40,
+            "Coins": 6750,
+            "Essense": 11950
+        },
+        {
+            "Lvl": 41,
+            "Coins": 6800,
+            "Essense": 12150
+        },
+        {
+            "Lvl": 42,
+            "Coins": 6800,
+            "Essense": 12350
+        },
+        {
+            "Lvl": 43,
+            "Coins": 6850,
+            "Essense": 12550
+        },
+        {
+            "Lvl": 44,
+            "Coins": 6900,
+            "Essense": 12750
+        },
+        {
+            "Lvl": 45,
+            "Coins": 6950,
+            "Essense": 13000
+        },
+        {
+            "Lvl": 46,
+            "Coins": 6950,
+            "Essense": 13250
+        },
+        {
+            "Lvl": 47,
+            "Coins": 7000,
+            "Essense": 13500
+        },
+        {
+            "Lvl": 48,
+            "Coins": 7000,
+            "Essense": 13750
+        },
+        {
+            "Lvl": 49,
+            "Coins": 7050,
+            "Essense": 14000
+        },
+        {
+            "Lvl": 50,
+            "Coins": 7100,
+            "Essense": 14300
+        },
+        {
+            "Lvl": 51,
+            "Coins": 7150,
+            "Essense": 14600
+        },
+        {
+            "Lvl": 52,
+            "Coins": 7250,
+            "Essense": 14900
+        },
+        {
+            "Lvl": 53,
+            "Coins": 7250,
+            "Essense": 15200
+        },
+        {
+            "Lvl": 54,
+            "Coins": 7350,
+            "Essense": 15500
+        },
+        {
+            "Lvl": 55,
+            "Coins": 7400,
+            "Essense": 15800
+        },
+        {
+            "Lvl": 56,
+            "Coins": 7500,
+            "Essense": 16150
+        },
+        {
+            "Lvl": 57,
+            "Coins": 7550,
+            "Essense": 16500
+        },
+        {
+            "Lvl": 58,
+            "Coins": 7650,
+            "Essense": 16800
+        },
+        {
+            "Lvl": 59,
+            "Coins": 7750,
+            "Essense": 17150
+        },
+        {
+            "Lvl": 60,
+            "Coins": 7800,
+            "Essense": 17500
+        },
+        {
+            "Lvl": 61,
+            "Coins": 7950,
+            "Essense": 17900
+        },
+        {
+            "Lvl": 62,
+            "Coins": 8000,
+            "Essense": 18250
+        },
+        {
+            "Lvl": 63,
+            "Coins": 8150,
+            "Essense": 18650
+        },
+        {
+            "Lvl": 64,
+            "Coins": 8250,
+            "Essense": 19000
+        },
+        {
+            "Lvl": 65,
+            "Coins": 8350,
+            "Essense": 19450
+        },
+        {
+            "Lvl": 66,
+            "Coins": 8500,
+            "Essense": 19850
+        },
+        {
+            "Lvl": 67,
+            "Coins": 8600,
+            "Essense": 20250
+        },
+        {
+            "Lvl": 68,
+            "Coins": 8750,
+            "Essense": 20700
+        },
+        {
+            "Lvl": 69,
+            "Coins": 8850,
+            "Essense": 21100
+        },
+        {
+            "Lvl": 70,
+            "Coins": 9200,
+            "Essense": 22150
+        },
+        {
+            "Lvl": 71,
+            "Coins": 9800,
+            "Essense": 23750
+        },
+        {
+            "Lvl": 72,
+            "Coins": 10650,
+            "Essense": 25950
+        },
+        {
+            "Lvl": 73,
+            "Coins": 11700,
+            "Essense": 28700
+        },
+        {
+            "Lvl": 74,
+            "Coins": 13000,
+            "Essense": 32000
+        },
+        {
+            "Lvl": 75,
+            "Coins": 14500,
+            "Essense": 36000
+        },
+        {
+            "Lvl": 76,
+            "Coins": 16250,
+            "Essense": 40500
+        },
+        {
+            "Lvl": 77,
+            "Coins": 18250,
+            "Essense": 45600
+        },
+        {
+            "Lvl": 78,
+            "Coins": 20500,
+            "Essense": 51250
+        },
+        {
+            "Lvl": 79,
+            "Coins": 23000,
+            "Essense": 57500
+        },
+        {
+            "Lvl": 80,
+            "Coins": 25700,
+            "Essense": 64400
+        },
+        {
+            "Lvl": 81,
+            "Coins": 28650,
+            "Essense": 71800
+        },
+        {
+            "Lvl": 82,
+            "Coins": 31850,
+            "Essense": 79850
+        },
+        {
+            "Lvl": 83,
+            "Coins": 35300,
+            "Essense": 88450
+        },
+        {
+            "Lvl": 84,
+            "Coins": 39000,
+            "Essense": 97600
+        },
+        {
+            "Lvl": 85,
+            "Coins": 43000,
+            "Essense": 107400
+        },
+        {
+            "Lvl": 86,
+            "Coins": 47200,
+            "Essense": 117750
+        },
+        {
+            "Lvl": 87,
+            "Coins": 51650,
+            "Essense": 128700
+        },
+        {
+            "Lvl": 88,
+            "Coins": 56400,
+            "Essense": 140200
+        },
+        {
+            "Lvl": 89,
+            "Coins": 61350,
+            "Essense": 152250
+        }
+    ],
+    "S": [
+        {
+            "Lvl": 1,
+            "Coins": 200,
+            "Essense": 600
+        },
+        {
+            "Lvl": 2,
+            "Coins": 250,
+            "Essense": 750
+        },
+        {
+            "Lvl": 3,
+            "Coins": 300,
+            "Essense": 900
+        },
+        {
+            "Lvl": 4,
+            "Coins": 350,
+            "Essense": 1050
+        },
+        {
+            "Lvl": 5,
+            "Coins": 450,
+            "Essense": 1250
+        },
+        {
+            "Lvl": 6,
+            "Coins": 550,
+            "Essense": 1450
+        },
+        {
+            "Lvl": 7,
+            "Coins": 650,
+            "Essense": 1650
+        },
+        {
+            "Lvl": 8,
+            "Coins": 750,
+            "Essense": 1850
+        },
+        {
+            "Lvl": 9,
+            "Coins": 850,
+            "Essense": 2100
+        },
+        {
+            "Lvl": 10,
+            "Coins": 1000,
+            "Essense": 2350
+        },
+        {
+            "Lvl": 11,
+            "Coins": 1150,
+            "Essense": 2650
+        },
+        {
+            "Lvl": 12,
+            "Coins": 1300,
+            "Essense": 2950
+        },
+        {
+            "Lvl": 13,
+            "Coins": 1450,
+            "Essense": 3250
+        },
+        {
+            "Lvl": 14,
+            "Coins": 1600,
+            "Essense": 3600
+        },
+        {
+            "Lvl": 15,
+            "Coins": 1800,
+            "Essense": 3950
+        },
+        {
+            "Lvl": 16,
+            "Coins": 2000,
+            "Essense": 4350
+        },
+        {
+            "Lvl": 17,
+            "Coins": 2200,
+            "Essense": 4750
+        },
+        {
+            "Lvl": 18,
+            "Coins": 2400,
+            "Essense": 5150
+        },
+        {
+            "Lvl": 19,
+            "Coins": 2600,
+            "Essense": 5600
+        },
+        {
+            "Lvl": 20,
+            "Coins": 2850,
+            "Essense": 6550
+        },
+        {
+            "Lvl": 21,
+            "Coins": 3050,
+            "Essense": 6850
+        },
+        {
+            "Lvl": 22,
+            "Coins": 3300,
+            "Essense": 7200
+        },
+        {
+            "Lvl": 23,
+            "Coins": 3550,
+            "Essense": 7550
+        },
+        {
+            "Lvl": 24,
+            "Coins": 3800,
+            "Essense": 7900
+        },
+        {
+            "Lvl": 25,
+            "Coins": 4050,
+            "Essense": 8300
+        },
+        {
+            "Lvl": 26,
+            "Coins": 4300,
+            "Essense": 8650
+        },
+        {
+            "Lvl": 27,
+            "Coins": 4600,
+            "Essense": 9000
+        },
+        {
+            "Lvl": 28,
+            "Coins": 4850,
+            "Essense": 9400
+        },
+        {
+            "Lvl": 29,
+            "Coins": 5150,
+            "Essense": 9750
+        },
+        {
+            "Lvl": 30,
+            "Coins": 5400,
+            "Essense": 10150
+        },
+        {
+            "Lvl": 31,
+            "Coins": 5700,
+            "Essense": 10550
+        },
+        {
+            "Lvl": 32,
+            "Coins": 6000,
+            "Essense": 10950
+        },
+        {
+            "Lvl": 33,
+            "Coins": 6300,
+            "Essense": 11400
+        },
+        {
+            "Lvl": 34,
+            "Coins": 6600,
+            "Essense": 11800
+        },
+        {
+            "Lvl": 35,
+            "Coins": 6900,
+            "Essense": 12250
+        },
+        {
+            "Lvl": 36,
+            "Coins": 7200,
+            "Essense": 12700
+        },
+        {
+            "Lvl": 37,
+            "Coins": 7500,
+            "Essense": 13150
+        },
+        {
+            "Lvl": 38,
+            "Coins": 7850,
+            "Essense": 13650
+        },
+        {
+            "Lvl": 39,
+            "Coins": 8150,
+            "Essense": 14100
+        },
+        {
+            "Lvl": 40,
+            "Coins": 8150,
+            "Essense": 14350
+        },
+        {
+            "Lvl": 41,
+            "Coins": 8200,
+            "Essense": 14600
+        },
+        {
+            "Lvl": 42,
+            "Coins": 8200,
+            "Essense": 14850
+        },
+        {
+            "Lvl": 43,
+            "Coins": 8250,
+            "Essense": 15100
+        },
+        {
+            "Lvl": 44,
+            "Coins": 8250,
+            "Essense": 15350
+        },
+        {
+            "Lvl": 45,
+            "Coins": 8300,
+            "Essense": 15650
+        },
+        {
+            "Lvl": 46,
+            "Coins": 8350,
+            "Essense": 15950
+        },
+        {
+            "Lvl": 47,
+            "Coins": 8400,
+            "Essense": 16250
+        },
+        {
+            "Lvl": 48,
+            "Coins": 8450,
+            "Essense": 16550
+        },
+        {
+            "Lvl": 49,
+            "Coins": 8500,
+            "Essense": 16850
+        },
+        {
+            "Lvl": 50,
+            "Coins": 8550,
+            "Essense": 17200
+        },
+        {
+            "Lvl": 51,
+            "Coins": 8600,
+            "Essense": 17550
+        },
+        {
+            "Lvl": 52,
+            "Coins": 8700,
+            "Essense": 17900
+        },
+        {
+            "Lvl": 53,
+            "Coins": 8750,
+            "Essense": 18250
+        },
+        {
+            "Lvl": 54,
+            "Coins": 8850,
+            "Essense": 18600
+        },
+        {
+            "Lvl": 55,
+            "Coins": 8900,
+            "Essense": 19000
+        },
+        {
+            "Lvl": 56,
+            "Coins": 9000,
+            "Essense": 19400
+        },
+        {
+            "Lvl": 57,
+            "Coins": 9100,
+            "Essense": 19800
+        },
+        {
+            "Lvl": 58,
+            "Coins": 9200,
+            "Essense": 20200
+        },
+        {
+            "Lvl": 59,
+            "Coins": 9300,
+            "Essense": 20600
+        },
+        {
+            "Lvl": 60,
+            "Coins": 9400,
+            "Essense": 21050
+        },
+        {
+            "Lvl": 61,
+            "Coins": 9550,
+            "Essense": 21500
+        },
+        {
+            "Lvl": 62,
+            "Coins": 9650,
+            "Essense": 21950
+        },
+        {
+            "Lvl": 63,
+            "Coins": 9800,
+            "Essense": 22400
+        },
+        {
+            "Lvl": 64,
+            "Coins": 9900,
+            "Essense": 22850
+        },
+        {
+            "Lvl": 65,
+            "Coins": 10050,
+            "Essense": 23350
+        },
+        {
+            "Lvl": 66,
+            "Coins": 10200,
+            "Essense": 23850
+        },
+        {
+            "Lvl": 67,
+            "Coins": 10350,
+            "Essense": 24350
+        },
+        {
+            "Lvl": 68,
+            "Coins": 10500,
+            "Essense": 24850
+        },
+        {
+            "Lvl": 69,
+            "Coins": 10650,
+            "Essense": 25350
+        },
+        {
+            "Lvl": 70,
+            "Coins": 11050,
+            "Essense": 26600
+        },
+        {
+            "Lvl": 71,
+            "Coins": 11800,
+            "Essense": 28500
+        },
+        {
+            "Lvl": 72,
+            "Coins": 12800,
+            "Essense": 31150
+        },
+        {
+            "Lvl": 73,
+            "Coins": 14050,
+            "Essense": 34450
+        },
+        {
+            "Lvl": 74,
+            "Coins": 15600,
+            "Essense": 38450
+        },
+        {
+            "Lvl": 75,
+            "Coins": 17450,
+            "Essense": 43200
+        },
+        {
+            "Lvl": 76,
+            "Coins": 19550,
+            "Essense": 48600
+        },
+        {
+            "Lvl": 77,
+            "Coins": 21950,
+            "Essense": 54750
+        },
+        {
+            "Lvl": 78,
+            "Coins": 24650,
+            "Essense": 61550
+        },
+        {
+            "Lvl": 79,
+            "Coins": 27600,
+            "Essense": 69050
+        },
+        {
+            "Lvl": 80,
+            "Coins": 30850,
+            "Essense": 77300
+        },
+        {
+            "Lvl": 81,
+            "Coins": 34400,
+            "Essense": 86200
+        },
+        {
+            "Lvl": 82,
+            "Coins": 38250,
+            "Essense": 95850
+        },
+        {
+            "Lvl": 83,
+            "Coins": 42400,
+            "Essense": 106150
+        },
+        {
+            "Lvl": 84,
+            "Coins": 46850,
+            "Essense": 117150
+        },
+        {
+            "Lvl": 85,
+            "Coins": 51600,
+            "Essense": 128900
+        },
+        {
+            "Lvl": 86,
+            "Coins": 56650,
+            "Essense": 141300
+        },
+        {
+            "Lvl": 87,
+            "Coins": 62000,
+            "Essense": 154450
+        },
+        {
+            "Lvl": 88,
+            "Coins": 67700,
+            "Essense": 168250
+        },
+        {
+            "Lvl": 89,
+            "Coins": 73650,
+            "Essense": 182750
+        }
+    ]
+}

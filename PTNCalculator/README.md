@@ -1,0 +1,3 @@
+# aker0357.github.io
+無期迷途養成資源簡易計算機
+作者: chatgpt與我...
