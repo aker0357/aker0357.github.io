@@ -48,33 +48,16 @@ window.onload = function () {
             console.error('#add-content not found');
             return;
         }
-        const newTable = originalTable.cloneNode(true);
-        const inputs = newTable.querySelectorAll('input');
-        for (const input of inputs) {
-            switch (input.type) {
-                case 'number':
-                    input.value = '';
-                    break;
-                case 'checkbox':
-                    input.checked = false;
-                    break;
-            }
-        }
-        // Reset select values
-        const selects = newTable.querySelectorAll('select');
-        for (const select of selects) {
-            select.selectedIndex = 0;
-        }
 
-        const removeButton = document.createElement('button');
-
-        removeButton.innerText = '移除';
-        removeButton.addEventListener('click', function () {
-            newTable.remove();
+        const currentSelectIndices = Array.from(originalTable.querySelectorAll('select')).map(select => select.selectedIndex);
+        const currentInputValues = Array.from(originalTable.querySelectorAll('input')).map(input => {
+            return { value: input.value, checked: input.checked };
         });
 
+        resetInput(originalTable);
+        const newTable = generateNewMainTable(originalTable, currentSelectIndices, currentInputValues);
 
-        newTable.appendChild(removeButton);
+
         document.getElementById('tables-container').appendChild(newTable);
     });
 
@@ -161,7 +144,7 @@ function calculateRankCost(sinnerName, dangerLevel, totalCoins, table, tableBody
         [material2Name]: { "purple": 0, "blue": 0, "green": 0, "white": 0 }
     }
     let fluidMaterials = {
-        [fluidType] : { "purple": 0, "blue": 0, "green": 0, "white": 0 }
+        [fluidType]: { "purple": 0, "blue": 0, "green": 0, "white": 0 }
     }
     if (expectedRank > currentRank) {
         let coinsForRankUpgrade = 0;
@@ -472,4 +455,49 @@ function resetTables() {
             }
         }
     });
+}
+
+function resetInput(table) {
+    const inputs = table.querySelectorAll('input');
+    for (const input of inputs) {
+        switch (input.type) {
+            case 'number':
+                input.value = '';
+                break;
+            case 'checkbox':
+                input.checked = false;
+                break;
+        }
+    }
+    // Reset select values
+    const selects = table.querySelectorAll('select');
+    for (const select of selects) {
+        select.selectedIndex = 0;
+    }
+}
+
+function generateNewMainTable(originalTable, currentSelectIndices, currentInputValues) {
+    const newTable = originalTable.cloneNode(true);
+    const newInputs = newTable.querySelectorAll('input');
+    for (let i = 0; i < newInputs.length; i++) {
+        newInputs[i].value = currentInputValues[i].value;
+        newInputs[i].checked = currentInputValues[i].checked;
+    }
+
+    const newSelects = newTable.querySelectorAll('select');
+    for (let i = 0; i < newSelects.length; i++) {
+        newSelects[i].selectedIndex = currentSelectIndices[i];
+    }
+
+    const removeButton = document.createElement('button');
+
+    removeButton.innerText = '移除';
+    removeButton.addEventListener('click', function () {
+        newTable.remove();
+    });
+
+
+    newTable.appendChild(removeButton);
+    return newTable
+
 }
