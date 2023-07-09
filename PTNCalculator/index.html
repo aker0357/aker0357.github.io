@@ -20,154 +20,164 @@
         </select>
         <button id="add-table">新增</button>
     </div>
+    <div id="tab-btns">
+        <button class="tablink" onclick="changeTab(0)">角色規劃</button>
+        <button class="tablink" onclick="changeTab(1)">資源統計</button>
+    </div>
     <div id="main-container">
-        <div id="tables-container" class="flex-container">
-            <table class="add-content">
-                <tr>
-                    <th>
-                        <div id="avatar-container">
-                            <p class="danger-level"></p>
-                            <h1 class="sinner-name"></h1>
+        <div id="Tab1" class="tab-content active">
+            <div id="tables-container" class="flex-container">
+                <table class="add-content">
+                    <tr>
+                        <th>
+                            <div id="avatar-container">
+                                <p class="danger-level"></p>
+                                <h1 class="sinner-name"></h1>
 
-                        </div>
-                    </th>
-                </tr>
-                <tr>
-                    <td class="section">
-                        <h3>角色等級</h3>
-                        <label for="current-level">目前等級:</label>
-                        <input type="number" class="current-level" min="1" max="99">
-                        <label for="expected-level">預期等級:</label>
-                        <input type="number" class="expected-level" min="1" max="99">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="section">
-                        <h3>階級</h3>
-                        <label for="current-rank">目前階級:</label>
-                        <input type="number" class="current-rank" min="0" max="3">
-                        <label for="expected-rank">預期階級:</label>
-                        <input type="number" class="expected-rank" min="0" max="3">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="section">
-                        <h3>技能</h3>
-                        <label>一:</label>
-                        <label for="dropdown1-1">目前:</label>
-                        <select id="dropdown1-1"></select>
-                        <label for="dropdown1-2">預期:</label>
-                        <select id="dropdown1-2"></select>
-                        <br>
-                        <label>二:</label>
-                        <label for="dropdown2-1">目前:</label>
-                        <select id="dropdown2-1"></select>
-                        <label for="dropdown2-2">預期:</label>
-                        <select id="dropdown2-2"></select>
-                        <br>
-                        <label>三:</label>
-                        <label for="dropdown3-1">目前:</label>
-                        <select id="dropdown3-1"></select>
-                        <label for="dropdown3-2">預期:</label>
-                        <select id="dropdown3-2"></select>
-                        <br>
-                        <label>四:</label>
-                        <label for="dropdown4-1">目前:</label>
-                        <select id="dropdown4-1"></select>
-                        <label for="dropdown4-2">預期:</label>
-                        <select id="dropdown4-2"></select>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="section">
-                        <h3>專烙</h3>
-                        <label for="checkbox1">一:</label>
-                        <input type="checkbox" id="checkbox1">
-                        <br>
-                        <label for="checkbox2">二:</label>
-                        <input type="checkbox" id="checkbox2">
-                        <br>
-                        <label for="checkbox3">三:</label>
-                        <input type="checkbox" id="checkbox3">
-                    </td>
-                </tr>
-            </table>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="section">
+                            <h3>角色等級</h3>
+                            <label for="current-level">目前等級:</label>
+                            <input type="number" class="current-level" min="1" max="99">
+                            <label for="expected-level">預期等級:</label>
+                            <input type="number" class="expected-level" min="1" max="99">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="section">
+                            <h3>階級</h3>
+                            <label for="current-rank">目前階級:</label>
+                            <input type="number" class="current-rank" min="0" max="3">
+                            <label for="expected-rank">預期階級:</label>
+                            <input type="number" class="expected-rank" min="0" max="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="section">
+                            <h3>技能</h3>
+                            <label>一:</label>
+                            <label for="dropdown1-1">目前:</label>
+                            <select id="dropdown1-1"></select>
+                            <label for="dropdown1-2">預期:</label>
+                            <select id="dropdown1-2"></select>
+                            <br>
+                            <label>二:</label>
+                            <label for="dropdown2-1">目前:</label>
+                            <select id="dropdown2-1"></select>
+                            <label for="dropdown2-2">預期:</label>
+                            <select id="dropdown2-2"></select>
+                            <br>
+                            <label>三:</label>
+                            <label for="dropdown3-1">目前:</label>
+                            <select id="dropdown3-1"></select>
+                            <label for="dropdown3-2">預期:</label>
+                            <select id="dropdown3-2"></select>
+                            <br>
+                            <label>四:</label>
+                            <label for="dropdown4-1">目前:</label>
+                            <select id="dropdown4-1"></select>
+                            <label for="dropdown4-2">預期:</label>
+                            <select id="dropdown4-2"></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="section">
+                            <h3>專烙</h3>
+                            <label for="checkbox1">一:</label>
+                            <input type="checkbox" id="checkbox1">
+                            <br>
+                            <label for="checkbox2">二:</label>
+                            <input type="checkbox" id="checkbox2">
+                            <br>
+                            <label for="checkbox3">三:</label>
+                            <input type="checkbox" id="checkbox3">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="Tab2" class="tab-content">
+            <div id="resource-stats">
+                <table id="materials-table">
+                    <tr>
+                        <th>材料</th>
+                        <th>紫</th>
+                        <th>藍</th>
+                        <th>綠</th>
+                        <th>白</th>
+                    </tr>
+                </table>
+
+                <!-- 新增的第一組表格 -->
+                <table id="inner-sea-table">
+                    <tr>
+                        <th>素材</th>
+                        <th>內海囈語</th>
+                        <th>內海狂念</th>
+                        <th>內海亡骸</th>
+                        <th>意識晶核</th>
+                    </tr>
+                    <tr>
+                        <td>數量</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+                <table id="skill-model-table">
+                    <tr>
+                        <th>技能模組</th>
+                        <th>IV</th>
+                        <th>III</th>
+                        <th>II</th>
+                        <th>I</th>
+                    </tr>
+                    <tr>
+                        <td>數量</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+
+                <!-- 新增的第二組表格 -->
+                <table id="soul-mark-table">
+                    <tr>
+                        <th>魂識印記</th>
+                        <th>S級</th>
+                        <th>A級</th>
+                        <th>B級</th>
+                    </tr>
+                    <tr>
+                        <td>數量</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+                <table id="fluid-table">
+                    <tr>
+                        <th>源素</th>
+                        <th>三階</th>
+                        <th>二階</th>
+                        <th>一階</th>
+                    </tr>
+                </table>
+                <p id="coins-needed">需要的金幣數量:</p>
+                <p id="essense-needed">需要的精華數量:</p>
+                <p id="murmur">AI跟我都不會排版與美工，我也很絕望啊</p>
+            </div>
         </div>
     </div>
     <button id="calculate-total">計算</button>
     <button id="clear-result">清除</button>
-    <div id="resource-stats">
-        <table id="materials-table">
-            <tr>
-                <th>材料</th>
-                <th>紫</th>
-                <th>藍</th>
-                <th>綠</th>
-                <th>白</th>
-            </tr>
-        </table>
 
-        <!-- 新增的第一組表格 -->
-        <table id="inner-sea-table">
-            <tr>
-                <th>素材</th>
-                <th>內海囈語</th>
-                <th>內海狂念</th>
-                <th>內海亡骸</th>
-                <th>意識晶核</th>
-            </tr>
-            <tr>
-                <td>數量</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-            </tr>
-        </table>
-        <table id="skill-model-table">
-            <tr>
-                <th>技能模組</th>
-                <th>IV</th>
-                <th>III</th>
-                <th>II</th>
-                <th>I</th>
-            </tr>
-            <tr>
-                <td>數量</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-            </tr>
-        </table>
-
-        <!-- 新增的第二組表格 -->
-        <table id="soul-mark-table">
-            <tr>
-                <th>魂識印記</th>
-                <th>S級</th>
-                <th>A級</th>
-                <th>B級</th>
-            </tr>
-            <tr>
-                <td>數量</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-            </tr>
-        </table>
-        <table id="fluid-table">
-            <tr>
-                <th>源素</th>
-                <th>三階</th>
-                <th>二階</th>
-                <th>一階</th>
-            </tr>
-        </table>
-        <p id="coins-needed">需要的金幣數量:</p>
-        <p id="essense-needed">需要的精華數量:</p>
-        <p id="murmur">AI跟我都不會排版與美工，我也很絕望啊</p>
-    </div>
     <script src="js/script.js"></script>
 </body>
+
 </html>

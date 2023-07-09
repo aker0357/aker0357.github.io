@@ -91,3 +91,45 @@ p.danger-level {
     width: 500px; /* 當螢幕寬度大於600px時，表格寬度改為500px */
   }
 }
+
+.tab-content {
+  display: none;
+}
+
+/* Show active tab */
+.tab-content.active {
+  display: block;
+}
+/* Tab button container */
+#tab-btns {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Tab buttons */
+#tab-btns button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Hover effect for tab buttons */
+#tab-btns button:hover {
+  background-color: #ddd;
+}
+
+/* Style for the active (open) tab button */
+#tab-btns button.active {
+  background-color: #ccc;
+}
+
+#tab-btns button.active {
+  background-color: #4CAF50; /* you can change the color as per your preference */
+  color: white;
+}

@@ -1,7 +1,8 @@
 let sinnerData, lvlData, resourcesData
+let tabButtons = document.querySelectorAll("#tab-btns button");
 window.onload = function () {
-
-    fetch('../PTNCalculator/data/sinner.json')
+    changeTab(0);
+    fetch('https://aker0357.github.io/PTNCalculator/data/sinner.json')
         .then(response => response.json())
         .then(data => {
             console.log(data)
@@ -12,14 +13,14 @@ window.onload = function () {
         })
         .catch(error => console.error('Error:', error));
 
-    fetch('../PTNCalculator/data/lvl.json')
+    fetch('https://aker0357.github.io/PTNCalculator/data/lvl.json')
         .then(response => response.json())
         .then(data => {
             lvlData = data
         })
         .catch(error => console.error('Error:', error));
 
-    fetch('../PTNCalculator/data/resourses.json')
+    fetch('https://aker0357.github.io/PTNCalculator/data/resourses.json')
         .then(response => response.json())
         .then(data => {
             resourcesData = data
@@ -267,6 +268,7 @@ function calculateTotalResources() {
     const totalEssenseElement = document.getElementById('essense-needed');
     totalCoinsElement.textContent = "需要的金幣數量: " + totalCoins;
     totalEssenseElement.textContent = "需要的精華數量: " + totalEssense;
+    changeTab(1);
 }
 
 function generateMaterialTable(targetMaterials, tableBody) {
@@ -501,3 +503,27 @@ function generateNewMainTable(originalTable, currentSelectIndices, currentInputV
     return newTable
 
 }
+
+function changeTab(index) {
+    // 取得所有的tab
+    var tabs = document.querySelectorAll('.tab-content');
+
+    // 把所有的tab都隱藏
+    for (var i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove('active');
+    }
+
+    // 只顯示被選中的tab
+    tabs[index].classList.add('active');
+}
+
+// Add a click event listener to each button
+tabButtons.forEach(button => {
+    button.addEventListener("click", function () {
+        // Remove the "active" class from all buttons
+        tabButtons.forEach(btn => btn.classList.remove("active"));
+
+        // Add the "active" class to the clicked button
+        this.classList.add("active");
+    });
+});
