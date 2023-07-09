@@ -512,7 +512,7 @@ function changeTab(index) {
     for (var i = 0; i < tabs.length; i++) {
         tabs[i].classList.remove('active');
     }
-
+    tabButtons[index].classList.add('active');
     // 只顯示被選中的tab
     tabs[index].classList.add('active');
 }
