@@ -511,6 +511,7 @@ function changeTab(index) {
     // 把所有的tab都隱藏
     for (var i = 0; i < tabs.length; i++) {
         tabs[i].classList.remove('active');
+        tabButtons[i].classList.remove('active');
     }
     tabButtons[index].classList.add('active');
     // 只顯示被選中的tab
