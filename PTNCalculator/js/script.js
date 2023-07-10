@@ -2,10 +2,9 @@ let sinnerData, lvlData, resourcesData
 let tabButtons = document.querySelectorAll("#tab-btns button");
 window.onload = function () {
     changeTab(0);
-    fetch('https://aker0357.github.io/PTNCalculator/data/sinner.json')
+    fetch('../PTNCalculator/data/sinner.json')
         .then(response => response.json())
         .then(data => {
-            console.log(data)
             sinnerData = data
             populateDropdown(sinnerData)
             const dropdown = document.getElementById('outside-dropdown');
@@ -13,14 +12,14 @@ window.onload = function () {
         })
         .catch(error => console.error('Error:', error));
 
-    fetch('https://aker0357.github.io/PTNCalculator/data/lvl.json')
+    fetch('../PTNCalculator/data/lvl.json')
         .then(response => response.json())
         .then(data => {
             lvlData = data
         })
         .catch(error => console.error('Error:', error));
 
-    fetch('https://aker0357.github.io/PTNCalculator/data/resourses.json')
+    fetch('../PTNCalculator/data/resourses.json')
         .then(response => response.json())
         .then(data => {
             resourcesData = data
@@ -39,7 +38,6 @@ window.onload = function () {
 
     document.getElementById('add-table').addEventListener('click', function () {
         const sinnerName = document.getElementsByClassName('sinner-name');
-        console.log(sinnerName[0].textContent)
         if (!sinnerName[0].textContent) {
             console.error('not chosen sinner yet');
             return;
@@ -119,7 +117,6 @@ function updateResourcesNeeded(event, lvlData) {
     const currentLevel = targetTable.querySelector('.current-level').value;
     const expectedLevel = targetTable.querySelector('.expected-level').value;
 
-    console.log(dangerLevel)
     const relevantLevels = lvlData[dangerLevel].filter(levelInfo => levelInfo.Lvl >= currentLevel && levelInfo.Lvl <= expectedLevel);
 
 
@@ -249,7 +246,6 @@ function calculateTotalResources() {
         const currentLevel = Number(table.querySelector('.current-level').value);
         const expectedLevel = Number(table.querySelector('.expected-level').value);
 
-        console.log(dangerLevel)
         const relevantLevels = lvlData[dangerLevel]
             .filter(levelInfo => levelInfo.Lvl >= currentLevel && levelInfo.Lvl < expectedLevel);
 
@@ -425,7 +421,6 @@ function generateSkillModelTable(skillModel) {
     const colorToIndex = { "purple": 1, "blue": 2, "green": 3, "white": 4 };
 
     const existingRow = table.rows[1];  // 從第二行（索引為1）開始，因為第一行是表頭
-    console.log(skillModel)
     for (const color in colorToIndex) {
         let colorCell = existingRow.cells[colorToIndex[color]];
         colorCell.textContent = Number(colorCell.textContent) + skillModel[color];
